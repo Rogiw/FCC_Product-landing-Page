@@ -9,7 +9,11 @@ body{
 }
 nav{
     position: fixed;
- 
+    font-size: 1.5rem;
+}
+nav a{
+    text-decoration: none;  
+    color: black;
 }
 main{
     position: relative;
@@ -18,35 +22,62 @@ main{
 .logo{
     position: absolute;
     padding: 20px;
-    width: 400px;
-  height: 400px;
-    right: 2%;
-    top: 2px
+    width: 250px;
+  height: 250px;
+    right: 5%;
+    top: 10px;
+}
+.backgroundbeer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+    height: 101vh;
+
+}
+.jestergirl{
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 300px;
+    right: 30px;
+    bottom: 2%
+}
+.jestermale{
+    position: absolute;
+    left: -9%;
+    width: 20%;
+    height:auto;
+    z-index: -2;
+    bottom: 30px
 }
 #home{
     width: 100%;
     height: 100vh; 
-    background-image: url('Background1.png'); 
-    background-size: cover; 
-    background-position: right;
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    object-position: right;
-}
+    position: relative;
+    display: flex;
 }
 .landing{
-    padding: 0 20px;
-    height: 100vh;
    place-content: center;
+   margin: auto;
+   font-family: 'Times New Roman';
+   font-weight: normal;
+   font-size: 2.5rem;
+
 }
-h1{
-    font-size:2.6rem ;
+
+.boldtext{
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 3.5rem;
 }
-h2{
-    font-size: 0.8rem;
+.landing strong{
+    font-size: 3rem;
+
 }
 .products{
+    margin: auto;
+    position: relative;
+    display: flex;
     background-color: rgb(245, 134, 52);
     height: 100vh;
 }
